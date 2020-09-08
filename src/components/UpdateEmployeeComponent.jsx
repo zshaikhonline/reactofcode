@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import EmployeeService from '../services/EmployeeService';
 
 class UpdateEmployeeComponent extends Component {
-    constructor(props){
+    constructor(props) {
         super(props)
 
         this.state = {

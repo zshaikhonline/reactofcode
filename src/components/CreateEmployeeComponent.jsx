@@ -6,7 +6,6 @@ class CreateEmployeeComponent extends Component {
         super(props)
 
         this.state = {
-            // step 2
             id: this.props.match.params.id,
             firstName: '',
             lastName: '',
